@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB243DD717BD430C002C12AB /* Get Cooking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB243DD517BD430C002C12AB /* Get Cooking.xcdatamodeld */; };
+		CB243DDA17BD4343002C12AB /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = CB243DD917BD4343002C12AB /* Favorite.m */; };
+		CB243DDC17BD4384002C12AB /* GCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB243DDB17BD4384002C12AB /* GCAppDelegate.m */; };
+		CB243DDE17BD5342002C12AB /* jonprint.png in Resources */ = {isa = PBXBuildFile; fileRef = CB243DDD17BD5342002C12AB /* jonprint.png */; };
+		CB243DE417BD55AB002C12AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB243DE317BD55AB002C12AB /* Default@2x.png */; };
+		CB243DE617BD55B0002C12AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB243DE517BD55B0002C12AB /* Default.png */; };
+		CB243DE817BD55B3002C12AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB243DE717BD55B3002C12AB /* Default-568h@2x.png */; };
+		CB39CA3817BAF20B009B97BB /* GCFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB39CA3717BAF20B009B97BB /* GCFavoritesViewController.m */; };
+		CB39CA3B17BAF21C009B97BB /* GCFavoriteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB39CA3A17BAF21C009B97BB /* GCFavoriteDetailViewController.m */; };
+		CB3E259017C518E1007F62F1 /* GCRecipeComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E258F17C518E1007F62F1 /* GCRecipeComposeViewController.m */; };
+		CB3E259317C539B1007F62F1 /* PersonalRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E259217C539B1007F62F1 /* PersonalRecipe.m */; };
+		CB3E259617C54E46007F62F1 /* GCPersonalRecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E259517C54E46007F62F1 /* GCPersonalRecipeDetailViewController.m */; };
+		CB750EDC17C405A70071F69E /* GCIngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB750EDB17C405A70071F69E /* GCIngredientsViewController.m */; };
+		CB8DF46017B979AF0099EC44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8DF45F17B979AF0099EC44 /* UIKit.framework */; };
+		CB8DF46217B979AF0099EC44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8DF46117B979AF0099EC44 /* Foundation.framework */; };
+		CB8DF46417B979AF0099EC44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8DF46317B979AF0099EC44 /* CoreGraphics.framework */; };
+		CB8DF46A17B979AF0099EC44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB8DF46817B979AF0099EC44 /* InfoPlist.strings */; };
+		CB8DF46C17B979AF0099EC44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DF46B17B979AF0099EC44 /* main.m */; };
+		CB8DF47917B979AF0099EC44 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8DF47717B979AF0099EC44 /* MainStoryboard_iPhone.storyboard */; };
+		CB8DF47C17B979AF0099EC44 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8DF47A17B979AF0099EC44 /* MainStoryboard_iPad.storyboard */; };
+		CB8DF47F17B979AF0099EC44 /* GCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DF47E17B979AF0099EC44 /* GCViewController.m */; };
+		CB8DF48717B97A8C0099EC44 /* GCResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DF48617B97A8C0099EC44 /* GCResultsViewController.m */; };
+		CB8DF48E17B998BF0099EC44 /* GCResultDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DF48D17B998BE0099EC44 /* GCResultDetailViewController.m */; };
+		CBC7261717BAC04B002EE3BA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC7261617BAC04B002EE3BA /* CoreData.framework */; };
+		CBE7E75E17BE8FB400153D3E /* jonicon_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE7E75A17BE8F9E00153D3E /* jonicon_large.png */; };
+		CBE7E75F17BE8FB900153D3E /* jonicon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE7E75B17BE8F9E00153D3E /* jonicon_small.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB243DD617BD430C002C12AB /* Get Cooking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Get Cooking.xcdatamodel"; sourceTree = "<group>"; };
+		CB243DD817BD4343002C12AB /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorite.h; sourceTree = "<group>"; };
+		CB243DD917BD4343002C12AB /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorite.m; sourceTree = "<group>"; };
+		CB243DDB17BD4384002C12AB /* GCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAppDelegate.m; sourceTree = "<group>"; };
+		CB243DDD17BD5342002C12AB /* jonprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jonprint.png; sourceTree = "<group>"; };
+		CB243DE317BD55AB002C12AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CB243DE517BD55B0002C12AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CB243DE717BD55B3002C12AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB39CA3617BAF20B009B97BB /* GCFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCFavoritesViewController.h; sourceTree = "<group>"; };
+		CB39CA3717BAF20B009B97BB /* GCFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCFavoritesViewController.m; sourceTree = "<group>"; };
+		CB39CA3917BAF21C009B97BB /* GCFavoriteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCFavoriteDetailViewController.h; sourceTree = "<group>"; };
+		CB39CA3A17BAF21C009B97BB /* GCFavoriteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCFavoriteDetailViewController.m; sourceTree = "<group>"; };
+		CB3E258E17C518E1007F62F1 /* GCRecipeComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRecipeComposeViewController.h; sourceTree = "<group>"; };
+		CB3E258F17C518E1007F62F1 /* GCRecipeComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRecipeComposeViewController.m; sourceTree = "<group>"; };
+		CB3E259117C539B1007F62F1 /* PersonalRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalRecipe.h; sourceTree = "<group>"; };
+		CB3E259217C539B1007F62F1 /* PersonalRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalRecipe.m; sourceTree = "<group>"; };
+		CB3E259417C54E46007F62F1 /* GCPersonalRecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPersonalRecipeDetailViewController.h; sourceTree = "<group>"; };
+		CB3E259517C54E46007F62F1 /* GCPersonalRecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPersonalRecipeDetailViewController.m; sourceTree = "<group>"; };
+		CB750EDA17C405A70071F69E /* GCIngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCIngredientsViewController.h; sourceTree = "<group>"; };
+		CB750EDB17C405A70071F69E /* GCIngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCIngredientsViewController.m; sourceTree = "<group>"; };
+		CB8DF45C17B979AF0099EC44 /* Get Cooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Cooking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8DF45F17B979AF0099EC44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB8DF46117B979AF0099EC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB8DF46317B979AF0099EC44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB8DF46717B979AF0099EC44 /* Get Cooking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Get Cooking-Info.plist"; sourceTree = "<group>"; };
+		CB8DF46917B979AF0099EC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB8DF46B17B979AF0099EC44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB8DF46D17B979AF0099EC44 /* Get Cooking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Get Cooking-Prefix.pch"; sourceTree = "<group>"; };
+		CB8DF46E17B979AF0099EC44 /* GCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCAppDelegate.h; sourceTree = "<group>"; };
+		CB8DF47817B979AF0099EC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CB8DF47B17B979AF0099EC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CB8DF47D17B979AF0099EC44 /* GCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCViewController.h; sourceTree = "<group>"; };
+		CB8DF47E17B979AF0099EC44 /* GCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCViewController.m; sourceTree = "<group>"; };
+		CB8DF48517B97A8C0099EC44 /* GCResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCResultsViewController.h; sourceTree = "<group>"; };
+		CB8DF48617B97A8C0099EC44 /* GCResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCResultsViewController.m; sourceTree = "<group>"; };
+		CB8DF48C17B998BE0099EC44 /* GCResultDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCResultDetailViewController.h; sourceTree = "<group>"; };
+		CB8DF48D17B998BE0099EC44 /* GCResultDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCResultDetailViewController.m; sourceTree = "<group>"; };
+		CBC7261617BAC04B002EE3BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBE7E75A17BE8F9E00153D3E /* jonicon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jonicon_large.png; sourceTree = "<group>"; };
+		CBE7E75B17BE8F9E00153D3E /* jonicon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jonicon_small.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8DF45917B979AF0099EC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC7261717BAC04B002EE3BA /* CoreData.framework in Frameworks */,
+				CB8DF46017B979AF0099EC44 /* UIKit.framework in Frameworks */,
+				CB8DF46217B979AF0099EC44 /* Foundation.framework in Frameworks */,
+				CB8DF46417B979AF0099EC44 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8DF45317B979AF0099EC44 = {
+			isa = PBXGroup;
+			children = (
+				CBE7E75A17BE8F9E00153D3E /* jonicon_large.png */,
+				CBE7E75B17BE8F9E00153D3E /* jonicon_small.png */,
+				CB243DE717BD55B3002C12AB /* Default-568h@2x.png */,
+				CB243DE517BD55B0002C12AB /* Default.png */,
+				CB243DE317BD55AB002C12AB /* Default@2x.png */,
+				CB8DF46517B979AF0099EC44 /* Get Cooking */,
+				CB8DF45E17B979AF0099EC44 /* Frameworks */,
+				CB8DF45D17B979AF0099EC44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8DF45D17B979AF0099EC44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8DF45C17B979AF0099EC44 /* Get Cooking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8DF45E17B979AF0099EC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7261617BAC04B002EE3BA /* CoreData.framework */,
+				CB8DF45F17B979AF0099EC44 /* UIKit.framework */,
+				CB8DF46117B979AF0099EC44 /* Foundation.framework */,
+				CB8DF46317B979AF0099EC44 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB8DF46517B979AF0099EC44 /* Get Cooking */ = {
+			isa = PBXGroup;
+			children = (
+				CB8DF46E17B979AF0099EC44 /* GCAppDelegate.h */,
+				CB243DDB17BD4384002C12AB /* GCAppDelegate.m */,
+				CB8DF47717B979AF0099EC44 /* MainStoryboard_iPhone.storyboard */,
+				CB3E259417C54E46007F62F1 /* GCPersonalRecipeDetailViewController.h */,
+				CB3E259517C54E46007F62F1 /* GCPersonalRecipeDetailViewController.m */,
+				CB3E258E17C518E1007F62F1 /* GCRecipeComposeViewController.h */,
+				CB3E258F17C518E1007F62F1 /* GCRecipeComposeViewController.m */,
+				CB39CA3617BAF20B009B97BB /* GCFavoritesViewController.h */,
+				CB39CA3717BAF20B009B97BB /* GCFavoritesViewController.m */,
+				CB39CA3917BAF21C009B97BB /* GCFavoriteDetailViewController.h */,
+				CB39CA3A17BAF21C009B97BB /* GCFavoriteDetailViewController.m */,
+				CB750EDA17C405A70071F69E /* GCIngredientsViewController.h */,
+				CB750EDB17C405A70071F69E /* GCIngredientsViewController.m */,
+				CB8DF48C17B998BE0099EC44 /* GCResultDetailViewController.h */,
+				CB8DF48D17B998BE0099EC44 /* GCResultDetailViewController.m */,
+				CB8DF47A17B979AF0099EC44 /* MainStoryboard_iPad.storyboard */,
+				CB8DF47D17B979AF0099EC44 /* GCViewController.h */,
+				CB8DF47E17B979AF0099EC44 /* GCViewController.m */,
+				CB8DF48517B97A8C0099EC44 /* GCResultsViewController.h */,
+				CB8DF48617B97A8C0099EC44 /* GCResultsViewController.m */,
+				CB8DF46617B979AF0099EC44 /* Supporting Files */,
+			);
+			path = "Get Cooking";
+			sourceTree = "<group>";
+		};
+		CB8DF46617B979AF0099EC44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB243DDD17BD5342002C12AB /* jonprint.png */,
+				CB8DF46717B979AF0099EC44 /* Get Cooking-Info.plist */,
+				CB8DF46817B979AF0099EC44 /* InfoPlist.strings */,
+				CB8DF46B17B979AF0099EC44 /* main.m */,
+				CB8DF46D17B979AF0099EC44 /* Get Cooking-Prefix.pch */,
+				CB243DD517BD430C002C12AB /* Get Cooking.xcdatamodeld */,
+				CB3E259117C539B1007F62F1 /* PersonalRecipe.h */,
+				CB3E259217C539B1007F62F1 /* PersonalRecipe.m */,
+				CB243DD817BD4343002C12AB /* Favorite.h */,
+				CB243DD917BD4343002C12AB /* Favorite.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8DF45B17B979AF0099EC44 /* Get Cooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8DF48217B979AF0099EC44 /* Build configuration list for PBXNativeTarget "Get Cooking" */;
+			buildPhases = (
+				CB8DF45817B979AF0099EC44 /* Sources */,
+				CB8DF45917B979AF0099EC44 /* Frameworks */,
+				CB8DF45A17B979AF0099EC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Cooking";
+			productName = "Get Cooking";
+			productReference = CB8DF45C17B979AF0099EC44 /* Get Cooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8DF45417B979AF0099EC44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan McNeely";
+			};
+			buildConfigurationList = CB8DF45717B979AF0099EC44 /* Build configuration list for PBXProject "Get Cooking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB8DF45317B979AF0099EC44;
+			productRefGroup = CB8DF45D17B979AF0099EC44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8DF45B17B979AF0099EC44 /* Get Cooking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8DF45A17B979AF0099EC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8DF46A17B979AF0099EC44 /* InfoPlist.strings in Resources */,
+				CB8DF47917B979AF0099EC44 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CB8DF47C17B979AF0099EC44 /* MainStoryboard_iPad.storyboard in Resources */,
+				CB243DDE17BD5342002C12AB /* jonprint.png in Resources */,
+				CB243DE417BD55AB002C12AB /* Default@2x.png in Resources */,
+				CB243DE617BD55B0002C12AB /* Default.png in Resources */,
+				CB243DE817BD55B3002C12AB /* Default-568h@2x.png in Resources */,
+				CBE7E75E17BE8FB400153D3E /* jonicon_large.png in Resources */,
+				CBE7E75F17BE8FB900153D3E /* jonicon_small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8DF45817B979AF0099EC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8DF46C17B979AF0099EC44 /* main.m in Sources */,
+				CB8DF47F17B979AF0099EC44 /* GCViewController.m in Sources */,
+				CB8DF48717B97A8C0099EC44 /* GCResultsViewController.m in Sources */,
+				CB8DF48E17B998BF0099EC44 /* GCResultDetailViewController.m in Sources */,
+				CB39CA3817BAF20B009B97BB /* GCFavoritesViewController.m in Sources */,
+				CB39CA3B17BAF21C009B97BB /* GCFavoriteDetailViewController.m in Sources */,
+				CB243DD717BD430C002C12AB /* Get Cooking.xcdatamodeld in Sources */,
+				CB243DDA17BD4343002C12AB /* Favorite.m in Sources */,
+				CB243DDC17BD4384002C12AB /* GCAppDelegate.m in Sources */,
+				CB750EDC17C405A70071F69E /* GCIngredientsViewController.m in Sources */,
+				CB3E259017C518E1007F62F1 /* GCRecipeComposeViewController.m in Sources */,
+				CB3E259317C539B1007F62F1 /* PersonalRecipe.m in Sources */,
+				CB3E259617C54E46007F62F1 /* GCPersonalRecipeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB8DF46817B979AF0099EC44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8DF46917B979AF0099EC44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB8DF47717B979AF0099EC44 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8DF47817B979AF0099EC44 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8DF47A17B979AF0099EC44 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8DF47B17B979AF0099EC44 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8DF48017B979AF0099EC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB8DF48117B979AF0099EC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8DF48317B979AF0099EC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Get Cooking/Get Cooking-Prefix.pch";
+				INFOPLIST_FILE = "Get Cooking/Get Cooking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB8DF48417B979AF0099EC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Get Cooking/Get Cooking-Prefix.pch";
+				INFOPLIST_FILE = "Get Cooking/Get Cooking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8DF45717B979AF0099EC44 /* Build configuration list for PBXProject "Get Cooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8DF48017B979AF0099EC44 /* Debug */,
+				CB8DF48117B979AF0099EC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8DF48217B979AF0099EC44 /* Build configuration list for PBXNativeTarget "Get Cooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8DF48317B979AF0099EC44 /* Debug */,
+				CB8DF48417B979AF0099EC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB243DD517BD430C002C12AB /* Get Cooking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB243DD617BD430C002C12AB /* Get Cooking.xcdatamodel */,
+			);
+			currentVersion = CB243DD617BD430C002C12AB /* Get Cooking.xcdatamodel */;
+			path = "Get Cooking.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB8DF45417B979AF0099EC44 /* Project object */;
+}
